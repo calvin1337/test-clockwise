@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+      font-family: "Open Sans", Helvetica, sans-serif;
+      font-size: 13pt;
+      font-weight: 400;
+      line-height: 1.65em;
+  }
+  .navbar{
+    position:fixed;
+    width:100%;
+    color:black;
+    border-radius:0;
+  }
+  .navbar-default .navbar-nav > li > a{
+    color:#000;
+    
+  }
+
+  .navbar {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    z-index: 1200 !important;
+    background-color:transparent !important;
+    transition: background-color 0.5s ease 0.5s;
+}
+
+  nav img{
+    height: 100px;
+  }
+
+  .navbar a {
+    color:white !important
+  }
+
+
+  
+   .background-carousel-color #myCarousel{
+     width:100%;
+     top:0;
+     right:0;
+     height: 100vh;
+   }
+
+   .background-carousel-color .d-block w-100 {
+    width:100%;
+    height:550px;
+    object-fit:cover;
+    object-position:50% 50%;
+   }
+
+
+
+  
+   .background-carousel-color .carousel {
+    top:0;
+}
+.background-carousel-color .carousel-inner {
+    width: 100%; 
+    overflow: hidden;
+    }
+
+  /* Carousel base class */
+/*
+  .carousel {
+
+}
+
+*/
+.background-carousel-color .background-carousel-color{
+  background:#212529;
+}
+.background-carousel-color.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  background-size: 100% 100%;
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.background-carousel-color .carousel-indicators {
+	position: absolute;
+  bottom: 2em;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.background-carousel-color .carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.background-carousel-color .carousel-item {
+  height: 100vh;
+  background-color: #212529;
+}
+.background-carousel-color .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+
+.background-carousel-color .carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.6);
+}
+
+.services-carousel {
+  padding-top:70px;
+  padding-bottom:70px;
+  background:#f8f8f8;
+}
+
+.services-carousel ol{
+  position: relative;
+  padding-top:20px;
+} 
+
+.services-carousel .carousel-control-prev {
+  margin-left: -120px;
+}
+
+ .services-carousel .carousel-control-next {
+  margin-right: -120px;
+}
+
+.services-carousel .carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70,70,70,.25);
+}
+
+.services-carousel .carousel .carousel-indicators .active {
+  background-color: #444;
+}
+
+.services-carousel .my-slider .carousel-indicators {
+  top: 10px;
+  justify-content:flex-start;
+  margin:0;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.services-carousel  .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.services-carousel  .carousel-indicators li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.services-carousel .carousel {
+  margin: 1.5rem;
+}
+.services-carousel .carousel-inner {
+  height: auto;
+}
+/* using a container causes multiple alerts to stack. */
+.alerts-container {
+	position: fixed;
+	top: 1em;
+	right: 2em;
+	z-index: 9999;
+}
+
+
+.intro-content{
+  padding-top: 100px;
+}
+
+
+.title-header{
+  color:#212529;
+  font-weight: bolder;
+  display:inline-block;
+  margin-bottom: 40px;
+  padding:0px;
+  border-bottom:4px #B17B1A solid;
+  margin-top:30px;
+}
+
+.featured-header{
+  color:#212529;
+  font-weight: bolder;
+  padding:0px;
+  font-size:18px;
+  border-bottom:1px #B17B1A solid;
+  
+}
+
+.featured-services{
+  background: #f8f8f8;
+}
+.whitebk{
+  background:white;
+}
+.servicesbtn{
+color: #B17B1A;
+font-weight: bolder;
+margin-bottom: 100px;
+}
+
+.servicesbtn:hover {
+  border: 2px solid #B17B1A;
+}
+
+.allservices{
+  text-align: center;
+}
+
+
+.companyinfo{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contactus p{
+  text-align: left !important;
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  }
+
+
+  .nav-colored { background-color:#212529 !important;
+    transition: background-color 0.5s ease 0.5s;
+    ; }
+  .nav-transparent 
+  { 
+    
+    background-color:transparent !important;
+  }
+
+
+  
