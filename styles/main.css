@@ -38,6 +38,20 @@
     color:white !important
   }
 
+
+
+
+  /* hover navbar effects */
+
+  span {
+    padding: 0 1rem;
+    transition: opacity 0.2s;
+  }
+  
+  .sibling-fade:hover span:not(:hover) {
+    opacity: 0.5;
+  }
+
  
 
   
@@ -395,3 +409,5 @@ margin-bottom: 50px;
   background: #343a40;
   border: 2px solid #343a40
 }
+
+
