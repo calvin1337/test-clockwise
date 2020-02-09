@@ -8,6 +8,7 @@
       font-size: 13pt;
       font-weight: 400;
       line-height: 1.65em;
+      height:100%;
   }
   .navbar{
     position:fixed;
@@ -37,13 +38,15 @@
     color:white !important
   }
 
+ 
 
   
-   .background-carousel-color #myCarousel{
+   .background-carousel-color{
      width:100%;
      top:0;
      right:0;
      height: 100vh;
+     background-image: url("/images/Homepage/weldinghp.jpg.jpeg");
    }
 
    .background-carousel-color .d-block w-100 {
@@ -264,3 +267,131 @@ margin-bottom: 50px;
     background-size: 60% ;
 }
 
+
+.lg-heading {
+  font-size:10rem;
+  text-align: center;
+  margin:0;
+  font-weight: 400;
+  color:white;
+  padding-top: 30vh;
+}
+
+.sm-heading{
+  margin-bottom:2rem;
+  padding:0.2rem 1rem;
+  text-align: center;
+  margin:0;
+  font-weight: 400;
+  color:white
+}
+
+#home {
+  overflow: hidden; 
+  height:100vh;
+  text-align: center;
+}
+
+.text-secondary {
+  color: #92A1CF; }
+
+/*    Social Icons    */
+
+.iconsocial{
+  color: white;
+  text-decoration: none; 
+  font-family:FontAwesome;
+  text-align: center;
+  margin-top: 1rem;
+  text-decoration: none !important;
+}
+
+
+.iconsocial {
+  padding: 0.4rem; 
+}
+
+.iconsocial a:hover {
+  color: #92A1CF;
+  transition: all 0.5s ease-out; 
+}
+
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/Homepage/weldinghp.jpg.jpeg) top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 30px 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#hero .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-get-started:hover {
+  background: #343a40;
+  border: 2px solid #343a40
+}
