@@ -624,3 +624,34 @@ background: #eff8e2 ;
   .delay-4 {
   animation-delay: 1s;
   }
+
+
+  /* Services icons */ 
+
+ .icons-services{
+   width:50px;
+   height:50px;
+   text-align: center;
+ }
+
+ .scaling-image {
+  width: 100%;
+  display: inline-block; }
+  .scaling-image:hover .frame {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9); }
+  .scaling-image:hover img, .scaling-image:hover .feature-img-bg {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+
+    .feature-img-bg {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center; }
+      @media (max-width: 991.98px) {
+        .feature-img-bg {
+          height: 400px !important;
+          display: block;
+          margin-bottom: 30px; } }
