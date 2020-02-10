@@ -502,6 +502,28 @@ margin-bottom: 50px;
   width: 40%;
 }
 
+.section-headline-white h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 70px;
+  position: relative;
+  text-transform: capitalize;
+  font-family:'IBM Plex Mono', monospace;;
+  color:white;
+}
+
+.section-headline-white h2::after {
+  border: 1px solid #e1e5ee;
+  bottom: -20px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
 
 .featured-services .section-headline{
   padding-top: 30px;
@@ -555,8 +577,9 @@ margin-bottom: 50px;
 }
 
 .background1{
-  background:#e1e5ee
+  background:#e1e5ee;
 }
+
 .element-background-overlay
 {
 background:rgba(0,0,0,0.6)
@@ -571,8 +594,7 @@ background:rgba(0,0,0,0.6)
 .divider
 {
 	position: relative;
-  margin-top: 90px;
-	height: 1px;
+	height: 3px;
 }
 
 .div-transparent:before
@@ -580,11 +602,11 @@ background:rgba(0,0,0,0.6)
 	content: "";
 	position: absolute;
 	top: 0;
-	left: 5%;
-	right: 5%;
+	left: 10%;
+	right: 10%;
 	width: 90%;
-	height: 1px;
-	background-image: linear-gradient(to right, transparent, #394648, transparent);
+	height: 4px;
+	background-image: linear-gradient(to right, transparent, #212529, transparent);
 }
 
 
@@ -655,3 +677,30 @@ background: #eff8e2 ;
           height: 400px !important;
           display: block;
           margin-bottom: 30px; } }
+
+
+
+
+  .background2{
+    background:#2f3c42;
+    color:white;
+    margin:0px !important;
+    padding-bottom: 70px;
+    padding-top:70px;
+  }
+
+  .background2 p {
+    color: #e1e5ee;
+  }
+
+
+
+  .companyinfo i{
+     font-size: 50px;
+      margin:20px;
+  }
+
+  .companyinfo p{
+    margin:20px;
+    font-size:18px;
+  }
