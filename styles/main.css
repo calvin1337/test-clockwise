@@ -140,7 +140,7 @@
 .services-carousel {
   padding-top:70px;
   padding-bottom:70px;
-  background:#f8f8f8;
+  
   width:100%;
 }
 
@@ -224,7 +224,7 @@
 }
 
 .featured-services{
-  background: #f8f8f8;
+  background:white;
 }
 .whitebk{
   background:white;
@@ -278,8 +278,8 @@ margin-bottom: 50px;
     background-image: url("../images/owl-watermark_103bf9f645a1520d4702bddc2bd5bb19.png");
     background-repeat: no-repeat, repeat;
     background-size: auto;
-    background-position:center bottom;
-    background-size: 60% ;
+    background-position:bottom center;
+    background-size: 40% ;
 }
 
 
@@ -431,6 +431,23 @@ margin-bottom: 50px;
 }
 
 
+.zoom-content{
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  margin: 10px;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
+.zoom-content:hover,
+.zoom-content:focus,
+.zoom-content:active {
+  transform: scale(1.2);
+}
+
+
+
 /*   */
 
 .hover-underline-animation {
@@ -538,4 +555,29 @@ margin-bottom: 50px;
 .element-background-overlay
 {
 background:rgba(0,0,0,0.6)
+}
+
+
+.shadow-box{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.divider
+{
+	position: relative;
+  margin-top: 90px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, #2f3c42, transparent);
 }
