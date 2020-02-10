@@ -11,6 +11,7 @@
       line-height: 1.65em;
       height:100%;
       font-family: 'Roboto Slab', serif;
+      color:#272838;
   }
   .navbar{
     position:fixed;
@@ -266,8 +267,8 @@ margin-bottom: 50px;
   }
 
 
-  .nav-colored { background-color:#2f3c42 !important;
-    transition: background-color 0.5s ease 0.5s;
+  .nav-colored { background-color:#212529!important;
+    transition: background-color 0.3s ease 0.3s;
     ; }
   .nav-transparent 
   { 
@@ -487,7 +488,7 @@ margin-bottom: 50px;
   position: relative;
   text-transform: capitalize;
   font-family:'IBM Plex Mono', monospace;;
-  color:#2f3c42;
+  color:#212529;
 }
 
 .section-headline h2::after {
@@ -583,7 +584,7 @@ background:rgba(0,0,0,0.6)
 	right: 5%;
 	width: 90%;
 	height: 1px;
-	background-image: linear-gradient(to right, transparent, #2f3c42, transparent);
+	background-image: linear-gradient(to right, transparent, #394648, transparent);
 }
 
 
@@ -603,10 +604,23 @@ background: #eff8e2 ;
 }
 
 .featured-services{
-  background: white;
+  background:#f1f7ed;
 }
 
 .card img{
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
 }
+
+.delay-1 {
+  animation-delay: .25s;
+  }
+  .delay-2 {
+  animation-delay: .5s;
+  }
+  .delay-3 {
+  animation-delay: .75s;
+  }
+  .delay-4 {
+  animation-delay: 1s;
+  }
