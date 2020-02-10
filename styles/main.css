@@ -581,3 +581,11 @@ background:rgba(0,0,0,0.6)
 	height: 1px;
 	background-image: linear-gradient(to right, transparent, #2f3c42, transparent);
 }
+
+
+.intro-content img {
+  
+    vertical-align:bottom;
+    border:0;
+    
+}
