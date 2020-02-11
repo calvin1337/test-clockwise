@@ -679,12 +679,12 @@ background: #eff8e2 ;
 
 .background1{
   background:#e1e5ee;
+  
           }
 
   .background2{
-    background: #485563; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #485563, #29323c); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #485563, #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    background-color: #272838;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23e1e5ee' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
     color:white;
     margin:0px !important;
     padding-bottom: 70px;
@@ -696,10 +696,6 @@ background: #eff8e2 ;
     margin:10px;
   }
 
-
-  .background1 p {
-
-  }
 
 
   .background2 p {
