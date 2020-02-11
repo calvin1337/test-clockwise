@@ -1,0 +1,86 @@
+
+   .background-carousel-color{
+    width:100%;
+    top:0;
+    right:0;
+    height: 100vh;
+    background-image: url("/images/Homepage/weldinghp.jpg.jpeg");
+  }
+
+  .background-carousel-color .d-block w-100 {
+   width:100%;
+   height:550px;
+   object-fit:cover;
+   object-position:50% 50%;
+  }
+
+
+
+ 
+  .background-carousel-color .carousel {
+   top:0;
+}
+.background-carousel-color .carousel-inner {
+   width: 100%; 
+   overflow: hidden;
+   }
+
+ /* Carousel base class */
+
+
+
+.background-carousel-color .background-carousel-color{
+  background:#212529;
+}
+.background-carousel-color.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  background-size: 100% 100%;
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.background-carousel-color .carousel-indicators {
+	position: absolute;
+  bottom: 2em;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.background-carousel-color .carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.background-carousel-color .carousel-item {
+  height: 100vh;
+  background-color: #212529;
+}
+.background-carousel-color .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+
+.background-carousel-color .carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.6);
+}
+
+/* using a container causes multiple alerts to stack. */
+.alerts-container {
+	position: fixed;
+	top: 1em;
+	right: 2em;
+	z-index: 9999;
+}

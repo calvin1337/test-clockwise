@@ -1,0 +1,42 @@
+/* Nav Bar */ 
+
+.navbar{
+    position:fixed;
+    width:100%;
+    color:black;
+    border-radius:0;
+    font-family:'IBM Plex Mono', monospace;
+  }
+  .navbar-default .navbar-nav > li > a{
+    color:#000;
+    
+  }
+
+  .navbar {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    z-index: 1200 !important;
+    background-color:#212529!important;
+    transition: background-color 0.5s ease 0.5s;
+}
+
+  nav img{
+    height: 100px;
+  }
+
+  .navbar a {
+    color:white !important
+  }
+
+  /* hover navbar effects */
+
+  span {
+    padding: 0 1rem;
+    transition: opacity 0.2s;
+  }
+  
+  .sibling-fade:hover span:not(:hover) {
+    opacity: 0.5;
+  }
+
