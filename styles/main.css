@@ -576,9 +576,7 @@ margin-bottom: 50px;
   text-decoration: none;
 }
 
-.background1{
-  background:#e1e5ee;
-}
+
 
 .element-background-overlay
 {
@@ -679,15 +677,30 @@ background: #eff8e2 ;
           margin-bottom: 30px; } }
 
 
-
+.background1{
+  background:#e1e5ee;
+          }
 
   .background2{
-    background:#2f3c42;
+    background: #485563; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #485563, #29323c); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #485563, #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
     color:white;
     margin:0px !important;
     padding-bottom: 70px;
     padding-top:70px;
   }
+
+  .box-shadow{
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    margin:10px;
+  }
+
+
+  .background1 p {
+
+  }
+
 
   .background2 p {
     color: #e1e5ee;
