@@ -65,9 +65,8 @@
           }
 
 .background2{
-    background-color: #272838;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23e1e5ee' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-    color:white;
+    background-color:#f9f9f9;
+    color:#272838;
     margin:0px !important;
     padding-bottom: 70px;
     padding-top:70px;
@@ -95,7 +94,7 @@
   
   
 .background2 p {
-  color: #e1e5ee;
+  color: #272838;
     }
 
     .element-background-overlay
@@ -519,11 +518,11 @@ background:rgba(0,0,0,0.6)
   position: relative;
   text-transform: capitalize;
   font-family:'IBM Plex Mono', monospace;;
-  color:white;
+  color:#272838
 }
 
 .section-headline-white h2::after {
-  border: 1px solid #e1e5ee;
+  border: 1px solid #272838;
   bottom: -20px;
   content: "";
   left: 0;
