@@ -107,6 +107,10 @@ background:rgba(0,0,0,0.6)
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.box-shadow2{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
 
 .divider
 {
@@ -546,7 +550,7 @@ background:rgba(0,0,0,0.6)
 
 .card{
   border-radius: 25px;
-  background: #eff8e2 ;
+  background: #f9f9f9 ;
   }
   
 .featured-services{
@@ -599,4 +603,17 @@ background:rgba(0,0,0,0.6)
   .companyinfo p{
     margin:20px;
     font-size:18px;
+    padding-top:40px;
+    padding-bottom:40px;
+  }
+
+
+  .services-info{
+    padding-top:40px;
+    padding-bottom:40px;
+    border-radius: 20px;
+  }
+
+  .services-info img{
+    text-align:center;
   }
