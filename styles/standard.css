@@ -4,7 +4,7 @@
   }
 
   body{
-    font-size: 13pt;
+    font-size: 16pt;
     font-weight: 400;
     line-height: 1.65em;
     height:100%;
@@ -31,7 +31,7 @@ main{
             }
   
   .background2{
-      background-color: white;
+      background-color: #f9f9f9;
       color:#272838;
       margin:0px !important;
       padding-bottom: 70px;
@@ -101,8 +101,8 @@ main{
   }
   
   .content{
-      padding-top:70px;
-      padding-bottom: 70px;
+      padding-top:80px;
+      padding-bottom: 80px;
   
   }
 
@@ -121,4 +121,9 @@ main{
     height: 100%;
     width: 100%;
     position: absolute;
+  }
+
+  .map-info {
+    font-size: 24px;
+    line-height: 1.6;
   }
