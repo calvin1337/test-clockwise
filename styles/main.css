@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   body{
@@ -617,3 +618,5 @@ background:rgba(0,0,0,0.6)
   .services-info img{
     text-align:center;
   }
+
+ 
