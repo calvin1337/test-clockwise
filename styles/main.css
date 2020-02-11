@@ -46,7 +46,7 @@
 
   /* Transition navbar effect for homepage */ 
 
-  .nav-colored { background-color:#212529!important;
+  .nav-colored { background-color:#686A6E!important;
     transition: background-color 0.3s ease 0.3s;
     ; }
   .nav-transparent 
