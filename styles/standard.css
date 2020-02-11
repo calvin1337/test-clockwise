@@ -50,6 +50,13 @@ main{
       background-position:bottom right;
       background-size: 20% ;
   }
+
+
+  .box-shadow{
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    margin:15px;
+  }
+
   
 
   /* Headers */
@@ -101,8 +108,8 @@ main{
   }
   
   .content{
-      padding-top:80px;
-      padding-bottom: 80px;
+      padding-top:50px;
+      padding-bottom: 50px;
   
   }
 
