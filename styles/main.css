@@ -123,7 +123,7 @@ background:rgba(0,0,0,0.6)
 	right: 10%;
 	width: 90%;
 	height: 4px;
-	background-image: linear-gradient(to right, transparent, #212529, transparent);
+	background-image: linear-gradient(to right, transparent, #c7ccdb , transparent);
 }
 
 
@@ -147,10 +147,14 @@ background:rgba(0,0,0,0.6)
 .services-carousel {
   padding-top:70px;
   padding-bottom:70px;
-  
   width:100%;
+  overflow: hidden;
 }
 
+.services-carousel img{
+  height: 380px;
+  
+}
 .services-carousel ol{
   position: relative;
   padding-top:20px;
