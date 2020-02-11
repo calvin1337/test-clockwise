@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-size: 13pt;
+    font-weight: 400;
+    line-height: 1.65em;
+    height:100%;
+    font-family: 'Roboto Slab', serif;
+    color:#272838;
+}
+
+
+
+main{
+    padding-top: 100px;
+  }
+  @media (max-width: 980px) {
+    main {
+      padding-top: 50px;
+    }
+  }
+
+/* Background */ 
+
+  .background1{
+    background:#e1e5ee;
+    
+            }
+  
+  .background2{
+      background-color: white;
+      color:#272838;
+      margin:0px !important;
+      padding-bottom: 70px;
+      padding-top:70px;
+    }
+  
+  
+    .whitebk{
+      background:white;
+    }
+  
+    .owl-background{
+      background-image: url("../images/owl-watermark_103bf9f645a1520d4702bddc2bd5bb19.png");
+      background-repeat: no-repeat, repeat;
+      background-size: auto;
+      background-position:bottom right;
+      background-size: 20% ;
+  }
+  
+
+  /* Headers */
+
+  .section-headline h2 {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 70px;
+    position: relative;
+    text-transform: capitalize;
+    font-family:'IBM Plex Mono', monospace;;
+    color:#212529;
+    padding-top: 50px;
+  }
+  
+  .section-headline h2::after {
+    border: 1px solid #333;
+    bottom: -20px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 40%;
+  }
+  
+  .section-headline-white h2 {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 70px;
+    position: relative;
+    text-transform: capitalize;
+    font-family:'IBM Plex Mono', monospace;;
+    color:white;
+    padding-top: 50px;
+  }
+  
+  .section-headline-white h2::after {
+    border: 1px solid #e1e5ee;
+    bottom: -20px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 40%;
+  }
+  
+  .content{
+      padding-top:70px;
+      padding-bottom: 70px;
+  
+  }
+
+
+ 
+
+  .map-container {
+    overflow: hidden;
+    position: relative;
+    height: 0;
+  }
+
+  .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
