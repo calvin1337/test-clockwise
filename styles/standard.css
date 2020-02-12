@@ -107,7 +107,7 @@ main{
   }
   
   .content{
-      padding-top:50px;
+      padding-top:100px;
       padding-bottom: 100px;
   
   }
@@ -172,15 +172,9 @@ main{
   -webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
 	-moz-box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
   box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
-  height:350px;
-  border: 5px solid #272838;
-  width: 100%;
 }
 
-.services-content {
-  border-radius: 25px;
-  -webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
-	-moz-box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
-  box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
+.img-responsive {
+  width: 598px;
 }
 
