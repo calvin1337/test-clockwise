@@ -158,9 +158,7 @@ main{
 
 
 
-.services-images img{
-  
-}
+
 
 .services-content figure, figcaption, img {
 	-webkit-border-radius: 20px;
@@ -176,5 +174,6 @@ main{
 
 .img-responsive {
   width: 598px;
+  height:420px;
 }
 
