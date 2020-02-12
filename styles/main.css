@@ -506,6 +506,8 @@ background:rgba(0,0,0,0.6)
   text-transform: capitalize;
   font-family:'IBM Plex Mono', monospace;;
   color:#212529;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
 }
 
 .section-headline h2::after {

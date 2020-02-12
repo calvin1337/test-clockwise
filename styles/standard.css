@@ -45,7 +45,7 @@ main{
       background-image: url("../images/owl-watermark_103bf9f645a1520d4702bddc2bd5bb19.png");
       background-repeat: no-repeat, repeat;
       background-size: auto;
-      background-position:bottom right;
+      background-position:center;
       background-size: 20% ;
   }
 
@@ -69,6 +69,7 @@ main{
     font-family:'IBM Plex Mono', monospace;;
     color:#212529;
     padding-top: 50px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   }
   
   .section-headline h2::after {
@@ -154,3 +155,32 @@ main{
   border-radius: 20px;
   padding:10px;
 }
+
+
+
+.services-images img{
+  
+}
+
+.services-content figure, figcaption, img {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.services-content img{
+  -webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
+	-moz-box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
+  box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
+  height:350px;
+  border: 5px solid #272838;
+  width: 100%;
+}
+
+.services-content {
+  border-radius: 25px;
+  -webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
+	-moz-box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
+  box-shadow: inset 0 1px 5px rgba(0,0,0,.5);
+}
+
