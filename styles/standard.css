@@ -45,8 +45,8 @@ main{
       background-image: url("../images/owl-watermark_103bf9f645a1520d4702bddc2bd5bb19.png");
       background-repeat: no-repeat, repeat;
       background-size: auto;
-      background-position:center;
-      background-size: 20% ;
+      background-position:bottom center;
+      background-size: 40% ;
   }
 
 
@@ -69,7 +69,6 @@ main{
     font-family:'IBM Plex Mono', monospace;;
     color:#212529;
     padding-top: 50px;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   }
   
   .section-headline h2::after {
