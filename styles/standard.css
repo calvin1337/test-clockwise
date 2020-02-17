@@ -255,3 +255,13 @@ height: 300px
 	opacity: 1;
 	
 }
+
+
+.services-content {
+  border-radius: 20px;
+  margin:20px !important; 
+  overflow: hidden;
+  padding:50px;
+  box-shadow: 0 5px 10px rgba(154,160,185, .8), 0 15px 40px rgba(166,173,201, .8);
+  background:#ebeef4;
+}
