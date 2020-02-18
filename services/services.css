@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 70vh !important;
     background: url(../images/Homepage/weldinghp.jpg) bottom center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     font-family: 'IBM Plex Mono', monospace;
@@ -65,3 +65,20 @@ body {
     text-transform: uppercase;
     color: #fff;
   }
+
+
+  .owl-background1{
+    background-image: url("../images/owl-watermark_103bf9f645a1520d4702bddc2bd5bb19.png");
+    background-repeat: no-repeat, repeat;
+    background-size: auto;
+    background-position:bottom center;
+    background-size: 60% ;
+}
+
+.owl-background{
+  background-image: url("../images/owl-watermark_103bf9f645a1520d4702bddc2bd5bb19.png");
+  background-repeat: no-repeat, repeat;
+  background-size: auto;
+  background-position:bottom center;
+  background-size: 40% ;
+}
