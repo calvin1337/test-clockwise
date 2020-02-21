@@ -623,3 +623,11 @@ background:rgba(0,0,0,0.6)
   }
 
  
+.latest-news img{
+  width:100%;
+}
+
+.latest-news h4 {
+  margin-top:40px;
+  font-size:20px;
+}
