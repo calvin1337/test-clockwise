@@ -499,7 +499,7 @@ background:rgba(0,0,0,0.6)
 
 /* Section Headline */
 
-.section-headline h2 {
+.section-headline h2  {
   display: inline-block;
   font-size: 40px;
   font-weight: 600;
