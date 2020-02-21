@@ -530,11 +530,11 @@ background:rgba(0,0,0,0.6)
   position: relative;
   text-transform: capitalize;
   font-family:'IBM Plex Mono', monospace;;
-  color:#272838
+  color:white;
 }
 
 .section-headline-white h2::after {
-  border: 1px solid #272838;
+  border: 1px solid white;
   bottom: -20px;
   content: "";
   left: 0;
@@ -603,6 +603,13 @@ background:rgba(0,0,0,0.6)
      font-size: 50px;
       margin:20px;
   }
+  
+  .background3{
+background-color:#272838;
+background-image: url("../images/map-image.png");
+background-repeat: no-repeat;
+background-position: center;
+  }
 
   .companyinfo p{
     margin:20px;
@@ -617,7 +624,9 @@ background:rgba(0,0,0,0.6)
     padding-bottom:40px;
     border-radius: 20px;
   }
-
+.white-text{
+  color:white;
+}
   .services-info img{
     text-align:center;
   }
