@@ -68,7 +68,7 @@
           }
 
 .background2{
-    background-color:#f9f9f9;
+    background-color:white;;
     color:#272838;
     margin:0px !important;
     padding-bottom: 70px;
@@ -380,10 +380,7 @@ background:rgba(0,0,0,0.6)
 
 
 
-.companyinfo{
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
+
 
 .contactus p{
   text-align: left !important;
@@ -609,6 +606,11 @@ background-color:#272838;
 background-image: url("../images/map-image.png");
 background-repeat: no-repeat;
 background-position: center;
+  }
+
+  .background3 img{
+    padding-top:30px;
+    padding-bottom:30px;
   }
 
   .companyinfo p{
