@@ -1,0 +1,89 @@
+html, body{
+  background-color: #e1e5ee
+}
+.wrapper{
+  width:100%;
+  padding-top: 20px;
+  text-align:center;
+}
+h2{
+  font-family:sans-serif;
+  color:grey;
+}
+
+
+.carousel-services{
+  width:90%;
+  margin:0px auto;
+}
+.slick-slide{
+  margin:10px;
+}
+
+.slick-current h1{
+  color:green ;
+}
+
+.carousel-services .card{
+  height:300px;
+  background:grey;
+  color:white;
+}
+
+.carousel-img{
+  width:100%; 
+  height:100%; 
+  object-fit:cover; 
+  filter: blur(5px) grayscale(1);
+}
+
+.carousel-services .card:hover{
+  border: #272838 solid 2px;
+  cursor: pointer;
+}
+
+.carousel-services .card:hover .text-overlay{
+  opacity: 1;
+  padding-bottom: 10%;
+  filter:none;
+}
+
+ .carousel-services .card img:hover {
+    filter:none !important;
+     cursor: pointer;
+}
+
+
+.slick-prev:before {
+  color:black !important;
+}
+
+.slick-next:before {
+  color:black !important;
+}
+
+.slick-current .text-overlay  {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  filter:none !important;
+}
+
+
+
+.slick-current img{
+  filter:none;
+}
+
+.text-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0px;
+  color: white;
+  font-size: .5em;
+  left: 0px;
+  padding: 10px 15px;
+  position: absolute;
+  transition: 0.5s padding;
+  text-align: center;
+  filter: blur(2px) grayscale(1);
+  width:100%;
+}
+
