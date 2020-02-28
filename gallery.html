@@ -6,130 +6,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/navbar.css" type="text/css">
+    <link href="css/imagehover.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="styles/slider.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/footer.css" type="text/css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
     <link rel="stylesheet" href="styles/gallery.css" type="text/css">
-    <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.3/css/lightgallery.min.css" type="text/css">
+
+    <link rel="stylesheet" href="styles/navbar.css" type="text/css">
+
+
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Merriweather+Sans|Playfair+Display+SC|Roboto+Slab&display=swap" rel="stylesheet"> 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <title>Clockwise | About</title>
-</head>
-<body>
- <nav id="mynav" class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">              
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="collapse navbar-collapse sibling-fade" id="navbarText">
-               <img style="padding-left: 20px;" src="images/logowhite.png">
-
-     <ul class="navbar-nav ml-auto">
-       <li class="nav-item active">
-         <a class="nav-link" href="index.html"><span>Home</span></a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="about.html"><span>About</span></a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="services.html"><span >Services</span></a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="projects.html"><span>Projects</span></a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="news.html"><span>News</span></a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="contact.html"><span>Contact</span></a>
-       </li>
-     </ul>
-   </div>
- </nav>
-    <main>
-      <div class="content" style="padding-bottom: 100px; padding-top:100px">
-        
-
-       
-
-      </div>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Merriweather+Sans|Playfair+Display+SC|Roboto+Slab&display=swap" rel="stylesheet"> 
+      <script src="/scripts/smooth-scroll.js"></script>
+    <script src="/scripts/wow.js"></script>
   
-  </main>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="/scripts/timeline.js"></script>
 
-<footer class="mainfooter" role="contentinfo">
-    <div class="footer-middle">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <!--Column1-->
-          <div class="footer-pad">
-          <h4 class="footertitle">CLOCKWISE</h4>
-            <ul class="list-unstyled">
-              <li><a href="#"></a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="contact.html">Get in touch</a></li>
-            </ul>
+              <script>
+              new WOW().init();
+              </script>
+
+    <title>Clockwise | Gallery</title>
+  </head>
+  <body>
+    <nav id="mynav" class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">              
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse sibling-fade" id="navbarText">
+                  <img style="padding-left: 20px;" src="images/logowhite.png">
+   
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><span>Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><span>About</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html"><span >Services</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html"><span>Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html"><span>News</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><span>Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+       <main class="background1">
+         
+         <div class="container" style="padding-top:150px; padding-bottom:110px;">
+
+            <div class="section-headline text-center">
+                <h2>Some of our latest images</h2>
+              </div>
+
+        <div class="slider slider-for">
+          <div><h3>1</h3></div>
+          <div><h3>2</h3></div>
+          <div><h3>3</h3></div>
+          <div><h3>4</h3></div>
+          <div><h3>5</h3></div>
+        </div>
+        <div class="slider slider-nav">
+          <div><h3>1</h3></div>
+          <div><h3>2</h3></div>
+          <div><h3>3</h3></div>
+          <div><h3>4</h3></div>
+          <div><h3>5</h3></div>
+        </div>
+      </div>
+     </main>
+
+     <footer class="mainfooter" role="contentinfo">
+        <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+              <h4 class="footertitle">CLOCKWISE</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#"></a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="privacy.html">Privacy</a></li>
+                  <li><a href="contact.html">Get in touch</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4 class="footertitle">SERVICES</h4>
+                <ul class="list-unstyled">
+                  <li><a href="services/engineering.html">Design & Engineering</a></li>
+                  <li><a href="services/fabrication.html">Fabrication</a></li>
+                  <li><a href="services/alwelding.html">Aluminium Welding</a></li>
+                  <li><a href="services/exoticwelding.html">Stainless Steels and Exotic Material Welding</a></li>
+                  <li><a href="services/machining.html">Machining</a></li>
+                  <li><a href="services/wjcutting.html">Water-jet Cutting and Profiling</a></li>
+                  <li><a href="services/piping.html">Hydraulics and Piping</a></li>
+                  <li><a href="services/rental.html">Rental Services</a></li>
+                  <li><a href="services/assembly.html">Assembly and Testing</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4 class="footertitle">NEWS</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">New Service- Offshore</a></li>
+                  <li><a href="#">News Article One</a></li>
+                  <li><a href="#">News Article Two</a></li>
+                  <li><a href="#">News Article Three</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h4 class="footertitle">CLOCKWISE TECHNOLOGIES LTD</h4>
+                  <ul class="address">
+                    <li>Unit 1A, Gourdieburn</li>
+                    <li>Potterton, AB23 8UY</li>
+                    <li>01234 567890</li>
+                    <li>info@clockwise-tech.com</li>
+                  </ul><br>
+                  <img src="images/logowhite.png">
+          </div>
+    
+          </div>
+        <div class="row">
+          <div class="col-md-12 copy">
+            <p class="text-center">&copy; Clockwise Technologies 2020. All rights reserved. SC520113</p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <!--Column1-->
-          <div class="footer-pad">
-            <h4 class="footertitle">SERVICES</h4>
-            <ul class="list-unstyled">
-              <li><a href="services/engineering.html">Design & Engineering</a></li>
-              <li><a href="services/fabrication.html">Fabrication</a></li>
-              <li><a href="services/alwelding.html">Aluminium Welding</a></li>
-              <li><a href="services/exoticwelding.html">Stainless Steels and Exotic Material Welding</a></li>
-              <li><a href="services/machining.html">Machining</a></li>
-              <li><a href="services/wjcutting.html">Water-jet Cutting and Profiling</a></li>
-              <li><a href="services/piping.html">Hydraulics and Piping</a></li>
-              <li><a href="services/rental.html">Rental Services</a></li>
-              <li><a href="services/assembly.html">Assembly and Testing</a></li>
-            </ul>
-          </div>
+      
+      
         </div>
-        <div class="col-md-3 col-sm-6">
-          <!--Column1-->
-          <div class="footer-pad">
-            <h4 class="footertitle">NEWS</h4>
-            <ul class="list-unstyled">
-              <li><a href="#">New Service- Offshore</a></li>
-              <li><a href="#">News Article One</a></li>
-              <li><a href="#">News Article Two</a></li>
-              <li><a href="#">News Article Three</a></li>
-            </ul>
-          </div>
         </div>
-        <div class="col-md-3">
-          <h4 class="footertitle">CLOCKWISE TECHNOLOGIES LTD</h4>
-              <ul class="address">
-                <li>Unit 1A, Gourdieburn</li>
-                <li>Potterton, AB23 8UY</li>
-                <li>01234 567890</li>
-                <li>info@clockwise-tech.com</li>
-              </ul><br>
-              <img src="images/logowhite.png">
-      </div>
+      </footer>
+    
+<!-- Optional JavaScript -->    <script src="scripts/scripts.js"></script>
+<script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+      </script>
 
-      </div>
-    <div class="row">
-      <div class="col-md-12 copy">
-        <p class="text-center">&copy; Clockwise Technologies 2020. All rights reserved. SC520113</p>
-      </div>
-    </div>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript">
   
-  
-    </div>
-    </div>
-  </footer>
+  $('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+});
 
-    <!-- Optional JavaScript -->
-    <script src="scripts/scripts.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-</html>
+</script>
+</body>
+</html>   
