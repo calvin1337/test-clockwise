@@ -549,19 +549,13 @@ background:rgba(0,0,0,0.6)
   padding-top: 30px;
 }
 
-.card{
-  border-radius: 25px;
-  background: #f9f9f9 ;
-  }
+
   
 .featured-services{
     background:#e1e5ee
   }
   
-.card img{
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-  }
+
 
 
 
