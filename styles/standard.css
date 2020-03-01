@@ -268,3 +268,16 @@ height: 300px
   box-shadow: 0 5px 10px rgba(154,160,185, .8), 0 15px 40px rgba(166,173,201, .8);
   background:#ebeef4;
 }
+
+.background3{
+  background-color:#272838;
+  background-image: url("../images/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+    }
+  
+    .background3 img{
+      padding-top:30px;
+      padding-bottom:30px;
+    }
+  
