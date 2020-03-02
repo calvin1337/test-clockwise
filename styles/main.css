@@ -633,11 +633,11 @@ background-position: center;
 }
 
 .pictwo{
-  background-image: url('/images/Homepage/weldinghp.jpg')
+  background-image: url('../images/Homepage/weldinghp.jpg')
 }
 
 .picthree{
-  background-image: url('/images/ServicesImages/exoticwelding.jpg')
+  background-image: url('../images/ServicesImages/exoticwelding.jpg')
 }
 
 .slider-container {
@@ -691,12 +691,15 @@ background-position: center;
 }
 
 @keyframes grow {
-	0%, 20% {
+	0%, 25% {
 		transform: scale(1);
 	}
 	
+	50%{
+	transform: scale(1.10);
+	}
 	75%, 100% {
-		transform: scale(1.15);
+	transform: scale(1.20);
 	}
 }
 
